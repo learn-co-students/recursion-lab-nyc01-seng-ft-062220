@@ -1,3 +1,13 @@
 // Code your solution here!
 
-let 
+function printString (myString) {
+    console.log(myString[0])
+    if (myString.length > 1){
+        let mySubString = myString.substring(1, myString.length)
+        console.log("my substring", mySubString)
+        printString(mySubString)
+    } else {
+        return true
+    }
+}
+
