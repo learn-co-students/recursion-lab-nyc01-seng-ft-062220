@@ -76,7 +76,7 @@ try {
 
       isPalindrome("madamimadam")
 
-      expect(isPalindrome.callCount).toEqual(6)
+      expect(isPalindrome.callCount).toEqual(7)
     });
   });
 
