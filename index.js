@@ -23,4 +23,10 @@ function printString(myString) {
     }
   }
 
-  
+  function reverseString(myString) {
+        if (myString.length === 1) {
+            return myString
+        } else {
+            return reverseString(myString.substring(mystring.length 1)) + myString[0]
+        }
+  }
