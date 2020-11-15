@@ -27,6 +27,6 @@ function printString(myString) {
         if (myString.length === 1) {
             return myString
         } else {
-            return reverseString(myString.substring(mystring.length 1)) + myString[0]
+            return reverseString(myString.substring(1)) + myString[0]
         }
   }
